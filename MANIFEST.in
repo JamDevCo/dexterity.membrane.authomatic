@@ -1,0 +1,4 @@
+graft src/dexterity
+graft docs
+include *.rst
+global-exclude *.pyc
