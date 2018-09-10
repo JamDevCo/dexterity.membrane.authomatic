@@ -8,7 +8,7 @@ dexterity.membrane.authomatic
 
 This is a Plone add-on that is use to make users as content for acl_users or users
 that does not have a membrane user profile especially for users that were created
-using [pas.plugins.authomatic](https://github.com/collective/pas.plugins.authomatic) package.
+using `pas.plugins.authomatic<https://github.com/collective/pas.plugins.authomatic>`_ package.
 
 Features
 --------
@@ -16,12 +16,12 @@ Features
 - Turns existing users to content.
 - Offers a custom handler for converting users to content.
 
-![PAS Authomatic Membrane Settings](https://image.ibb.co/dPTyZp/PAS_Authomatic_Membrane_Settings.png)
+.. image:: https://image.ibb.co/dPTyZp/PAS_Authomatic_Membrane_Settings.png
 
 Upon on logging in without the Role seen in the screenshot above, the user will be
 redirected to the profile registration page.
 
-![Profile Registration](https://image.ibb.co/jRMwLU/Profile_Registration.png)
+.. image:: https://image.ibb.co/jRMwLU/Profile_Registration.png
 
 
 Installation
