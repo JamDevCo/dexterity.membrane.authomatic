@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<object
+    name="portal_controlpanel"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="dexterity.membrane.authomatic">
+
+    <configlet
+        title="PAS Authomatic Membrane Settings"
+        action_id="authomatic.profile"
+        appId="dexterity.membrane.authomatic"
+        category="plone-users"
+        condition_expr=""
+        url_expr="string:${portal_url}/@@authomatic-membrane-settings"
+        icon_expr="string:$portal_url/group.png"
+        visible="True"
+        i18n:attributes="title">
+            <permission>Manage portal</permission>
+    </configlet>
+
+</object>

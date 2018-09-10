@@ -16,5 +16,29 @@
       name="dexterity.membrane.authomatic"
       directory="static"
       />
+  
+   <browser:page
+      name="authomatic-membrane-settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".controlpanel.ProfileRegistrationFormView"
+      permission="cmf.ManagePortal"
+      />
+
+  <browser:page
+    for="plone.app.layout.navigation.interfaces.INavigationRoot"
+    name="profile-registration"
+    layer="dexterity.membrane.authomatic.interfaces.IDexterityMembraneAuthomaticLayer"
+    class=".view.MemberRegistrationForm"
+    permission="zope2.View"
+    />
+
+  <browser:page
+    for="plone.app.layout.navigation.interfaces.INavigationRoot"
+    name="login_success"
+    layer="dexterity.membrane.authomatic.interfaces.IDexterityMembraneAuthomaticLayer"
+    class=".view.MemberRegistrationForm"
+    permission="zope2.View"
+    />
+  <adapter factory=".form.MemberRegistrationAdapter"/>
 
 </configure>

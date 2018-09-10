@@ -1,0 +1,7 @@
+<registry>
+    <records interface="dexterity.membrane.authomatic.browser.controlpanel.IProfileRegistration" prefix="pas.authomatic.membrane">
+        <value key="membrane_role">Member</value>
+        <value key="welcome_message">Thank you for being interested in us. Please complete your profile using the link below</value>
+        <value key="custom_redirect_path">profile-registration</value>
+    </records>
+</registry>

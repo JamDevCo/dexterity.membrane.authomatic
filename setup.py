@@ -15,7 +15,7 @@ long_description = '\n\n'.join([
 setup(
     name='dexterity.membrane.authomatic',
     version='1.0a1',
-    description="An add-on for Plone",
+    description="A Plone add-on that converts acl_users to content (membrane users)",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -42,6 +42,9 @@ setup(
         'Products.GenericSetup>=1.8.2',
         'setuptools',
         'z3c.jbot',
+        'dexterity.membrane',
+        'pas.plugins.authomatic',
+        'plone.login'
     ],
     extras_require={
         'test': [

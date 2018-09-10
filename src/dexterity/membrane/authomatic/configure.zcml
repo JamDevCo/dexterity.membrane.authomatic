@@ -33,4 +33,10 @@
       factory=".setuphandlers.HiddenProfiles"
       name="dexterity.membrane.authomatic-hiddenprofiles" />
 
+    <adapter
+        factory="dexterity.membrane.authomatic.adapters.RedirectAfterLoginAdapter"
+        for="OFS.interfaces.ITraversable
+             zope.publisher.interfaces.IRequest"
+        />
+
 </configure>
