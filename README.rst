@@ -8,7 +8,7 @@ dexterity.membrane.authomatic
 
 This is a Plone add-on that is use to make users as content for acl_users or users
 that does not have a membrane user profile especially for users that were created
-using `pas.plugins.authomatic<https://github.com/collective/pas.plugins.authomatic>`_ package.
+using pas.plugins.authomatic_ package.
 
 Features
 --------
@@ -58,3 +58,5 @@ License
 -------
 
 The project is licensed under the GPLv2.
+
+.. _pas.plugins.authomatic: https://github.com/collective/pas.plugins.authomatic
